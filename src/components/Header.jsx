@@ -10,7 +10,7 @@ const Header= () => {
                 <ul className="nav_list grid">
 
                     <li className="nav_items">
-                        <a href="#home" className="nav_link">
+                        <a href="#home" className="nav_link active-link">
                             <i className="uil uil-estate   nav_icon"></i>Home
                         </a>
                     </li>

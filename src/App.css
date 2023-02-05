@@ -180,16 +180,18 @@ background-color: var(--title-color-dark)
 /*  Breakpoints */
 
 /* for large devices */
-@media screen and (max-width:768px) {
-
+@media screen and (max-width:992px) {
+.container{
+  margin-left:var(--mb-1-5);
+  margin-right:var(--mb-1-5);
+}
 }
 
-/* for med devices */
-@media screen and (max-width:768px){
 
-}
 
-/* for mobile devices */
 @media screen  and (max-width : 576px){
 
 }
+
+
+
