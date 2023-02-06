@@ -57,9 +57,16 @@ const Header = () => {
                 
             </div>
 
-            <div className="nav_toggle" onClick= {() => showMenu(!Toggle)}>
+
+            {/* turn off comment of the below code and remove the following one to have back code in function */}
+            {/* <div className="nav_toggle" onClick= {() => showMenu(!Toggle)}>
+                <i class="uil uil-apps nav_close"></i>
+            </div> */}
+
+            <div className={ Toggle ? "nav_toggle hide_toggle" : "nav_toggle" } onClick= {() => showMenu(!Toggle)}>
                 <i class="uil uil-apps nav_close"></i>
             </div>
+
             </nav>
     </header>
     )
