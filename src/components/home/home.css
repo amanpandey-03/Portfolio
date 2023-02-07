@@ -1,3 +1,8 @@
+.home_container {
+    rowgap:7rem;
+}
+
+
 .home_content{
 grid-template-columns: 116px repeat(2,1fr);
 padding-top: 5.5rem;
@@ -88,3 +93,24 @@ top:1rem;
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
 }
+
+
+.home_scroll{
+    margin-left: 9.2rem;
+}
+
+ /* .wheel{
+    animation: scroll 2 sec ease infinite;
+}
+
+
+@keyframes scroll{
+    0%{
+        transform: translate(0);
+    }
+    30%{
+        transform : translate(3.75rem);
+    }
+}  */
+
+/* 49:28 */
