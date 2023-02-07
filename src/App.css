@@ -10,13 +10,13 @@
   /* colors */
   --hue: 0;
   --sat: 0%;
-  --title-color: hsl(var(--hue),var(--sat),20%);
+  --title-color: hsl(var(--hue),var(--sat),25%);
   --title-color-dark: hsl(var(--hue),var(--sat),0%);
   --text-color: hsl(var(--hue),var(--sat), 46%);
-  --body-color: hsl(var(--hue),var(--sat), 98%);
-  --container-color:#fff;
+  --body-color:  hsl(var(--hue),var(--sat), 98%);
+  --container-color : #fff;
 
-
+  
   
 /* font and typography */
 --body-font:"Poppins",sans-serif;
@@ -155,12 +155,12 @@ img{
 
 /* Buttons */
 
-button{
+.button{
   display: inline-block ; 
-  background-color: var(--tile-color);
+  background-color: var(--title-color);
   color : var(--container-color);
-  padding : 1.5 rem;
-  border-radius: 1 rem;
+  padding : 1.25rem;
+  border-radius: 1rem;
 }
 
 .button:hover{
